@@ -33,7 +33,8 @@ Editar configuração:
 
 ```
 sudo nano /usr/local/etc/v2ray/config.json
-
+```
+```
 {
   "inbounds": [{
     "port": 443,
@@ -63,9 +64,9 @@ sudo nano /usr/local/etc/v2ray/config.json
     "protocol": "freedom"
   }]
 }
-``
+```
 Habilitar e iniciar:
-``
+```
 sudo systemctl enable v2ray
 sudo systemctl start v2ray
 sudo ufw allow 443/tcp
