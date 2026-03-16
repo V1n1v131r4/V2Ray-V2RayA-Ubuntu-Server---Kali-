@@ -27,11 +27,11 @@ Ajustar permissões:
 sudo install -d -o nobody -g nogroup /etc/ssl/v2ray/
 sudo install -m 644 -o nobody -g nogroup /etc/letsencrypt/live/dominio.com/fullchain.pem /etc/ssl/v2ray/
 sudo install -m 600 -o nobody -g nogroup /etc/letsencrypt/live/dominio.com/privkey.pem /etc/ssl/v2ray/
-``
+```
 
 Editar configuração:
 
-``
+```
 sudo nano /usr/local/etc/v2ray/config.json
 
 {
