@@ -114,3 +114,14 @@ Mode: Follow Transparent Proxy
 Salvar → Selecionar servidor → Start
 ```
 ✅ Teste em https://dnsleaktest.com
+✅ Teste em https://ipleak.net
+
+❌ Teste em https://browserleaks.com/webrtc
+
+Caso vaze o seu IP real, o browserleaks.com pode estar expondo seu IP real devido a vazamento de WebRTC.
+
+No Firefox, vá em:
+```
+about:config → pesquise por media.peerconnection.enabled
+```
+Altere para false (desativa WebRTC). Reinicie o navegador e teste novamente.
