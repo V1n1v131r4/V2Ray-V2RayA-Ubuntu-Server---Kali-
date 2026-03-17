@@ -1,4 +1,4 @@
-# V2Ray-V2RayA-Ubuntu-Server---Kali-
+# V2Ray e V2RayA (Ubuntu Server e Kali Linux)
 Instalação e Configuração do V2Ray + v2rayA (2026)
 
 # Atualizar sistema
